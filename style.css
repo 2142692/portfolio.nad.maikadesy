@@ -1,0 +1,1050 @@
+body#mes_projets{
+    background-image: linear-gradient(to left, #000000, #654869);
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.alert {
+    margin-bottom: 0 !important;
+    background-color: #8DB6D0;
+    color: #280aeb;
+    border: none;
+    border-radius: 0%;
+  }
+  .alert .btn-close {
+    top: 0.3rem !important;
+  }
+  
+  nav {
+    background-image: linear-gradient(to left, #000000, #000000);
+    background-repeat: no-repeat;
+  }
+  nav .navbar-toggler {
+    border: none;
+  }
+  
+.logo{
+  margin-top:-20px;
+  margin-bottom:-10px;
+}
+
+  li a {
+    color: #D4CDF4 !important;
+  }
+  li a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 5px;
+    background: transparent;
+    transition: all 0.3s;
+  }
+  li a:hover::after, li a.active-nav::after {
+    width: 100%;
+    background: rgb(215, 179, 204);
+  }
+  
+  @media screen and (min-width: 992px) {
+    .navbar-collapse {
+      display: flex;
+      justify-content: end;
+    }
+  }
+
+
+
+.hero{
+  margin-bottom: 15%;
+}
+
+  .hero .card {
+
+    background-color: #000000;
+   
+  }
+  .hero .card h5 {
+    color: #16077a;
+    line-height: 1.5;
+  }
+  .hero .card img {
+    width: 100%;
+    height: 20%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    aspect-ratio: 5/3;
+    
+  }
+  .hero .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+  }
+  .hero .swiper-pagination-bullet-active {
+    width: 20px;
+    background: rgb(215, 179, 204);
+    
+  }
+
+
+  .swiper-pagination-bullet-active {
+   
+    background: #D4CDF4;
+  }
+
+
+
+footer p{
+  color: #D4CDF4 ;
+}
+/*@media (min-width: 100px) {
+ 
+.projet{
+  background-color: rgb(215, 179, 204);
+  margin-top: 140px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.desc{
+  
+  margin-top: 140px;
+  margin: 38px;
+  align-items: end;
+  font-size: 11px;
+}
+
+video{
+  align-items: start;
+  width: 100%;
+ height: 50%;
+
+} 
+
+
+}  */
+
+  
+  @media (min-width: 100px) {
+
+    h1{
+      font-family: 'Russo One', sans-serif;
+      color: rgb(215, 179, 204);
+    text-align: center;
+    
+  vertical-align: middle;
+      font-size: 40px;
+     
+      text-transform: uppercase;
+      text-shadow: 3px 3px rgb(68, 47, 120);
+     
+     
+    }
+  
+    h2{
+      
+      color: rgb(215, 179, 204);
+      text-align: center;
+      font-family: 'Tilt Neon', sans-serif;
+      
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+      font-size: 39px;
+    
+    }
+  
+    h3{
+      font-family: 'Lobster', sans-serif;
+  
+      margin-bottom: 50%;
+      color: #D4CDF4;
+      display: flex;
+      font-size: 38px;
+      justify-content: center;
+      align-self: center;
+  
+    }
+
+    .card-title{
+      color: #8db6d000;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    
+     font-size: 0px;
+     
+      position: absolute;
+      background-color: #210ab300;
+    }
+    
+    .card-title:hover{
+      color: #D4CDF4;;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-family: 'Cabin', sans-serif;
+     font-size: 30px;
+     padding-top: 23%;
+      position: absolute;
+      background-color: #7b5f86a0;
+    }
+  
+    .titre_portfolio{
+      margin-top: 40%;
+     
+      
+    }
+
+    h6{
+      font-family: 'Passion One', sans-serif;
+      font-size: 40px;
+      color: rgb(215, 179, 204);
+      background-color: #1f031b;
+      padding: 20px;
+      
+    }
+
+    .title{
+      margin-bottom: 3%;
+      }
+      
+      
+      
+      h6.meilleurs_projets{
+        margin-bottom: -8%;
+        font-size: 40px;
+      }
+      
+      p{
+        color: #1f031b;
+        font-family: 'Cabin', sans-serif;
+      }
+      
+      
+      .premier{
+        background-color: rgb(215, 179, 204);
+      }
+      
+    
+  .desc{
+    display: none;
+  padding: 5px;
+    
+    
+    font-size: 11px;
+  }
+  
+  .desc2{
+    background-color: rgb(215, 179, 204);
+  padding: 38px;
+    
+
+    font-size: 18px;
+  }
+
+  video{
+    width: 100%;
+   height: 50%;
+  
+  } 
+  
+  .projet{
+    background-color: rgb(215, 179, 204);
+    margin-top: 75px;
+  }
+
+  img{
+    width:50%;
+   height: 70%;
+   
+   
+  }
+
+  .cinq img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .personnage_desc{
+    background-color: rgb(215, 179, 204);
+    
+    padding: 38px;
+   
+    font-size: 18px;
+  }
+  
+  h6.personnage_title{
+    width: 70%;
+   margin-top: 20%;
+   margin-bottom: -5%;
+   font-size: 34px;
+  }
+
+  
+  h6.premiers_projets{
+    margin-top: 20%;
+    text-align: center;
+  }
+  
+  .portrait{
+    color: rgb(215, 179, 204);
+    font-size: 40px;
+    text-align: center;
+  
+  margin-top: 5%;
+  }
+
+  .first_projects .swiper-button-prev{
+    
+    color: #1f031b;
+   
+    }
+  
+    .first_projects .swiper-button-next{
+      
+      color: #1f031b;
+     
+      }
+
+  img.card-img-top{
+    width: 100%;
+    height: 100%;
+  }
+
+  .portrait_desc{
+    background-color: rgb(215, 179, 204);
+    
+    padding: 38px;
+    
+    font-size: 18px;
+  }
+  
+  .générique{
+    color: rgb(215, 179, 204);
+    font-size: 35px;
+    text-align: center;
+   
+  margin-top: 20%;
+  }
+  
+  .generique_film {
+  
+    text-align: center;
+   
+    
+  }
+  
+  .generique_film img{
+  
+  width: 100%;
+  height: 100%;
+    
+  }
+  
+  .generique_desc{
+    background-color: rgb(215, 179, 204);
+    
+    padding: 38px;
+    
+    font-size: 18px;
+  }
+
+  .generique_film .swiper-button-prev{
+    
+    color: #1f031b;
+    
+    }
+
+  .generique_film .swiper-button-next{
+    color: #1f031b;
+    
+    }
+
+     /** objectif carrière */
+
+     .carriere_desc{
+      background-color: rgb(215, 179, 204);
+      text-align: center;
+      padding: 30px;
+      margin-top: 50px;
+      font-size: 19px;
+    }
+
+     /** objectif carrière */
+    .titre_propos{
+      font-size: 34px;
+      margin: 15%;
+    }
+    
+        
+        .propos_desc{
+          background-color: rgb(215, 179, 204);
+          text-align: center;
+          padding: 30px;
+          margin-top: 50px;
+          font-size: 19px;
+        }
+    
+        .Linkedin{
+          width: 10%;
+        
+        
+        }
+
+  }
+  
+  @media (min-width: 800px) {
+
+    h1{
+      font-family: 'Russo One', sans-serif;
+      color: rgb(215, 179, 204);
+    text-align: center;
+    
+  vertical-align: middle;
+      font-size: 60px;
+     
+      text-transform: uppercase;
+      text-shadow: 3px 3px rgb(68, 47, 120);
+     
+     
+    }
+  
+    h2{
+      
+      color: rgb(215, 179, 204);
+      text-align: center;
+      font-family: 'Tilt Neon', sans-serif;
+      
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+      font-size: 50px;
+    
+    }
+  
+    h3{
+      font-family: 'Lobster', sans-serif;
+  
+      margin-bottom: 50%;
+      color: #D4CDF4;
+      display: flex;
+      font-size: 40px;
+      justify-content: center;
+      align-self: center;
+  
+    }
+
+    .card-title{
+      color: #8db6d000;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    
+     font-size: 0px;
+     
+      position: absolute;
+      background-color: #210ab300;
+    }
+    
+    .card-title:hover{
+      color: #D4CDF4;;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-family: 'Cabin', sans-serif;
+     font-size: 60px;
+     padding-top: 23%;
+      position: absolute;
+      background-color: #7b5f86a0;
+    }
+  
+  
+    .titre_portfolio{
+      margin-top: 15%;
+     
+      
+    }
+
+    .title{
+      margin-bottom: 3%;
+      }
+      
+      
+      
+      h6.meilleurs_projets{
+        margin-bottom: -10%;
+      }
+      
+      p{
+        font-family: 'Cabin', sans-serif;
+      }
+      
+      
+      .premier{
+        background-color: rgb(215, 179, 204);
+      }
+      
+
+    h6{
+      font-family: 'Passion One', sans-serif;
+      font-size: 50px;
+      color: rgb(215, 179, 204);
+      background-color: #1f031b;
+      padding: 20px;
+      
+    }
+  
+    .desc{
+      display: flex;
+      
+      margin-top: 50px;
+
+      
+      font-size: 12px;
+    }
+    
+    .desc2{
+      background-color: rgb(215, 179, 204);
+    padding: 5px;
+      display: none;
+      
+      font-size: 18px;
+    }
+    
+    video{
+      width: 50%;
+     height: 50%;
+     margin: 50px;
+    
+    } 
+    
+    .projet{
+      background-color: rgb(215, 179, 204);
+      margin-top: 140px;
+    }
+
+    img{
+      width:47.8%;
+     height: 60%;
+     margin: 10px;
+     
+    }
+
+    h6.personnage_title{
+      width: 70%;
+     margin-top: 20%;
+     margin-bottom: 5%;
+     font-size: 34px;
+    }
+
+    .cinq img{
+      width: 98%;
+      height: 100%;
+      
+    }
+
+    .personnage_desc{
+      background-color: rgb(215, 179, 204);
+      
+      padding: 38px;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    
+    h6.premiers_projets{
+      margin-top: 20%;
+      text-align: center;
+    }
+    
+    .portrait{
+      color: rgb(215, 179, 204);
+      font-size: 50px;
+      text-align: center;
+    
+    margin-top: 5%;
+    }
+    
+    img.card-img-top{
+      width: 98.5%;
+      padding-bottom: 20px;
+      padding-left: 60px;
+      padding-right: 60px;
+      height: 20%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      
+    }
+
+    .first_projects .swiper-button-prev{
+      background-color: rgb(215, 179, 204);
+      border-radius: 60px;
+      width: 5%;
+      margin-left: -1px;
+      height: 10%;
+      color: #1f031b;
+      padding: 27px;
+      }
+    
+      .first_projects .swiper-button-next{
+        background-color: rgb(215, 179, 204);
+        border-radius: 60px;
+        width: 5%;
+        margin-right: -5px;
+        height: 10%;
+        color: #1f031b;
+        padding: 27px;
+        }
+
+    .portrait_desc{
+      background-color: rgb(215, 179, 204);
+      
+      padding: 38px;
+      margin-top: 50px;
+      font-size: 20px;
+    }
+    
+    .générique{
+      color: rgb(215, 179, 204);
+      font-size: 50px;
+      text-align: center;
+     
+    margin-top: 7%;
+    }
+    
+    .generique_film {
+    
+      text-align: center;
+     
+      
+    }
+    
+    .generique_film img{
+    
+    width: 94%;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+    -o-object-fit: cover;
+       object-fit: cover;
+    }
+    
+    .generique_desc{
+      background-color: rgb(215, 179, 204);
+      
+      padding: 38px;
+      margin-top: 50px;
+      font-size: 20px;
+    }
+
+    .generique_film .swiper-button-prev{
+      background-color: rgb(215, 179, 204);
+      border-radius: 60px;
+      width: 5%;
+      margin-left: 10px;
+      height: 10%;
+      color: #1f031b;
+      padding: 27px;
+      }
+
+    .generique_film .swiper-button-next{
+      background-color: rgb(215, 179, 204);
+      border-radius: 60px;
+      width: 5%;
+      margin-right: 10px;
+      height: 10%;
+      color: #1f031b;
+      padding: 27px;
+      }
+  
+
+ /** objectif carrière */
+
+ .carriere_desc{
+  background-color: rgb(215, 179, 204);
+  text-align: center;
+  padding: 70px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+
+ /** à propos */
+.titre_propos{
+  font-size: 60px;
+  margin: 15%;
+}
+
+    
+    .propos_desc{
+      background-color: rgb(215, 179, 204);
+      text-align: center;
+      padding: 70px;
+      margin-top: 50px;
+      font-size: 20px;
+    }
+
+    .Linkedin{
+      width: 6%;
+    
+    
+    }
+
+    }
+
+
+@media (min-width: 1300px) {
+
+  h1{
+    font-family: 'Russo One', sans-serif;
+    color: rgb(215, 179, 204);
+  text-align: center;
+  
+vertical-align: middle;
+    font-size: 70px;
+   
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgb(68, 47, 120);
+   
+   
+  }
+
+  h2{
+    
+    color: rgb(215, 179, 204);
+    text-align: center;
+    font-family: 'Tilt Neon', sans-serif;
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+    font-size: 60px;
+  
+  }
+
+  h3{
+    font-family: 'Lobster', sans-serif;
+
+    margin-bottom: 30%;
+    color: #D4CDF4;
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-self: center;
+
+  }
+
+  .card-title{
+    color: #8db6d000;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  
+   font-size: 0px;
+   
+    position: absolute;
+    background-color: #210ab300;
+  }
+  
+  .card-title:hover{
+    color: #D4CDF4;;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+   font-size: 60px;
+   padding-top: 23%;
+    position: absolute;
+    background-color: #7b5f86a0;
+  }
+
+  .titre_portfolio{
+    margin-top: 15%;
+   
+    
+  }
+
+  .title{
+    margin-bottom: 3%;
+    }
+    
+    
+    
+    h6.meilleurs_projets{
+      margin-bottom: -3%;
+    }
+    
+    p{
+      font-family: 'Cabin', sans-serif;
+    }
+    
+    
+    .premier{
+      background-color: rgb(215, 179, 204);
+    }
+    
+
+
+  h6{
+    font-family: 'Passion One', sans-serif;
+    font-size: 50px;
+    color: rgb(215, 179, 204);
+    background-color: #1f031b;
+    padding: 20px;
+    
+  }
+  
+.desc{
+  display: flex;
+  
+  margin: 38px;
+width: 50%;
+
+  font-size: 20px;
+}
+
+.desc2{
+  background-color: rgb(215, 179, 204);
+padding: 5px;
+  display: none;
+  
+  font-size: 18px;
+}
+
+video{
+  width: 50%;
+ height: 50%;
+margin: 38px;
+} 
+
+.projet{
+  background-color: rgb(215, 179, 204);
+  margin-top: 140px;
+}
+
+img{
+  width:47.8%;
+ height: 60%;
+ margin: 10px;
+ 
+}
+
+.personnage_desc{
+  background-color: rgb(215, 179, 204);
+  
+  padding: 38px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+h6.personnage_title{
+  width: 70%;
+ margin-top: 20%;
+margin-bottom: 3%;
+ font-size: 34px;
+}
+
+.cinq img{
+  width: 97%;
+  height:97%;
+}
+
+h6.personnage_title{
+  width: 50%;
+ margin-top: 10%;
+}
+
+
+h6.premiers_projets{
+  margin-top: 20%;
+  text-align: center;
+}
+
+.portrait{
+  color: rgb(215, 179, 204);
+  font-size: 50px;
+  text-align: center;
+
+margin-top: 5%;
+}
+
+img.card-img-top{
+  width: 93%;
+  padding-bottom: 20px;
+  padding-left: 190px;
+;
+  height: 10%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  
+}
+
+
+.portrait_desc{
+  background-color: rgb(215, 179, 204);
+  
+  padding: 38px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.first_projects .swiper-button-prev{
+  background-color: rgb(215, 179, 204);
+  border-radius: 60px;
+  width: 5%;
+  margin-left: 20px;
+  height: 10%;
+  color: #1f031b;
+  padding: 5px;
+  }
+
+  .first_projects .swiper-button-next{
+    background-color: rgb(215, 179, 204);
+    border-radius: 60px;
+    width: 5%;
+    margin-right: 30px;
+    height: 10%;
+    color: #1f031b;
+    padding: 5px;
+    }
+
+.générique{
+  color: rgb(215, 179, 204);
+  font-size: 50px;
+  text-align: center;
+ 
+margin-top: 7%;
+}
+
+.generique_film {
+
+  text-align: center;
+ 
+  
+}
+
+.generique_film img{
+    
+    width: 90%;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+    -o-object-fit: cover;
+       object-fit: cover;
+    }
+
+.generique_desc{
+  background-color: rgb(215, 179, 204);
+  
+  padding: 38px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.generique_film .swiper-button-prev{
+  background-color: rgb(215, 179, 204);
+  border-radius: 60px;
+  width: 5%;
+  margin-left: 10px;
+  height: 10%;
+  color: #1f031b;
+  padding: 5px;
+  }
+
+  .generique_film .swiper-button-next{
+    background-color: rgb(215, 179, 204);
+    border-radius: 60px;
+    width: 5%;
+    margin-right: 10px;
+    height: 10%;
+    color: #1f031b;
+    padding: 5px;
+    }
+
+    /** objectif carrière */
+
+    
+
+    .carriere_desc{
+      background-color: rgb(215, 179, 204);
+      text-align: center;
+      padding: 70px;
+      margin-top: 50px;
+      font-size: 30px;
+    }
+
+    /** à propos de moi*/
+
+.titre_propos{
+  font-size: 70px;
+  margin: 10%;
+}
+
+    
+    .propos_desc{
+      background-color: rgb(215, 179, 204);
+      text-align: center;
+      padding: 70px;
+      margin-top: 50px;
+      font-size: 30px;
+    }
+
+    .Linkedin{
+      width: 4%;
+    
+    
+    }
+
+}
+
+
+/** objectif carrière */
+
+
+.titre_carriere{
+  margin: 10%;
+}
+body#carriere{
+  background-image: linear-gradient(to left, #000000, #654869);
+  background-repeat: no-repeat;
+  width: 100%;
+ 
+}
+
+
+
+
+
+body#propos{
+  background-image: linear-gradient(to left, #000000, #654869);
+  background-repeat: no-repeat;
+  width: 100%;
+ 
+}
+
+
+
+footer{
+
+  background-color: #000000;
+  color: #D4CDF4 ;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+ 
+}
+
+.link{
+  color: #D4CDF4 ;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: rgb(215, 179, 204); 
+  text-decoration: none;
+}
