@@ -1,1 +1,0 @@
-# portfolio.nad.maikadesy
