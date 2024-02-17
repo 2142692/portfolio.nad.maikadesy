@@ -99,33 +99,7 @@ body#mes_projets{
 footer p{
   color: #D4CDF4 ;
 }
-/*@media (min-width: 100px) {
- 
-.projet{
-  background-color: rgb(215, 179, 204);
-  margin-top: 140px;
-  display: flex;
-  flex-direction: row;
 
-}
-
-.desc{
-  
-  margin-top: 140px;
-  margin: 38px;
-  align-items: end;
-  font-size: 11px;
-}
-
-video{
-  align-items: start;
-  width: 100%;
- height: 50%;
-
-} 
-
-
-}  */
 
   
   @media (min-width: 100px) {
@@ -366,12 +340,29 @@ video{
 
      /** objectif carrière */
 
-     .carriere_desc{
+     .personnels_desc{
       background-color: rgb(215, 179, 204);
-      text-align: center;
-      padding: 30px;
+      
+     
       margin-top: 50px;
-      font-size: 19px;
+      
+    }
+
+    .img_archives{
+      width: 95%;
+      margin-top: 15px;
+    }
+
+    .archive_desc{
+      padding: 20px;
+      font-size: 15px;
+      
+    }
+
+    .archive_swippe img{
+      margin-top: 15px;
+      width: 100%;
+      height:100%;
     }
 
      /** objectif carrière */
@@ -665,14 +656,29 @@ video{
 
  /** objectif carrière */
 
- .carriere_desc{
+ .personnels_desc{
   background-color: rgb(215, 179, 204);
-  text-align: center;
-  padding: 70px;
+  
+ 
   margin-top: 50px;
   font-size: 20px;
 }
 
+.img_archives{
+  width: 95%;
+  margin-top: 20px;
+}
+
+.archive_desc{
+  padding:20px;
+  font-size: 17px;
+}
+
+.archive_swippe img{
+  margin-top: 20px;
+  width: 98%;
+  height:100%;
+}
 
  /** à propos */
 .titre_propos{
@@ -971,13 +977,27 @@ margin-top: 7%;
 
     
 
-    .carriere_desc{
+    .personnels_desc{
       background-color: rgb(215, 179, 204);
-      text-align: center;
-      padding: 70px;
-      margin-top: 50px;
-      font-size: 30px;
+      font-size: 20px;
     }
+
+.img_archives{
+  width: 89%;
+  margin-top: 40px;
+}
+
+.archive_desc{
+  padding:20px;
+  font-size: 19px;
+  
+}
+
+.archive_swippe img{
+  margin-top: 40px;
+  width: 97%;
+  height:97%;
+}
 
     /** à propos de moi*/
 
@@ -1008,7 +1028,7 @@ margin-top: 7%;
 /** objectif carrière */
 
 
-.titre_carriere{
+.titre_personnels{
   margin: 10%;
 }
 body#carriere{
