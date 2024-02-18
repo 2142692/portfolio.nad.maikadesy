@@ -211,6 +211,13 @@ footer p{
     
     font-size: 11px;
   }
+
+  .desc1{
+    display: none;
+    padding: 5px;
+    
+    font-size: 11px;
+  }
   
   .desc2{
     background-color: rgb(215, 179, 204);
@@ -506,6 +513,15 @@ footer p{
       font-size: 12px;
     }
     
+    .desc1{
+      display: flex;
+      
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+      font-size: 12px;
+    }
+
     .desc2{
       background-color: rgb(215, 179, 204);
     padding: 5px;
@@ -523,9 +539,11 @@ footer p{
 
 
    #vr{
-      width: 90%;
-     height: 70%;
-     margin-top: 30px;
+      width: 450px;
+     height: 250px;
+     margin-top: 50px;
+     
+     
     }
    
     .projet{
@@ -828,6 +846,13 @@ width: 50%;
   font-size: 20px;
 }
 
+.desc1{
+  display: flex;
+  width: 50%;
+  margin: 38px;
+  font-size: 18px;
+}
+
 .desc2{
   background-color: rgb(215, 179, 204);
 padding: 5px;
@@ -844,8 +869,8 @@ margin: 38px;
 
 
 #vr{
-  width: 90%;
- height: 75%;
+  width: 650px;
+ height: 350px;
  margin: 38px;
 }
 
