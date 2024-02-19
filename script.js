@@ -40,3 +40,12 @@ const swiperNews = new Swiper(".mySecondSwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+gsap.fromTo('.fleche', 
+
+  { y: '0%'}, 
+  { repeat: -1,
+  y: '5vh',
+  duration: 1,
+yoyo:true, ease: "power1.inOut"}
+);

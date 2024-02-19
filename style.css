@@ -382,9 +382,25 @@ footer p{
      /** objectif carrière */
     .titre_propos{
       font-size: 34px;
-      margin: 15%;
+      margin-top: 15%;
     }
+
+    .sous-titre{
+      font-family: 'Russo One', sans-serif;
+      color: rgb(215, 179, 204);
+    text-align: center;
     
+  vertical-align: middle;
+      font-size: 20px;
+     
+      text-transform: uppercase;
+      text-shadow: 3px 3px rgb(68, 47, 120);
+    }
+
+    
+    .fleche{
+      width: 17%;
+    }
         
         .propos_desc{
           
@@ -398,7 +414,7 @@ footer p{
 
         .lettre{
           width: 100%;
-
+          margin-top: 19%;
         }
 
   }
@@ -715,9 +731,24 @@ footer p{
  /** à propos */
 .titre_propos{
   font-size: 60px;
-  margin: 15%;
+  margin-top: 15%;
 }
 
+.sous-titre{
+  font-family: 'Russo One', sans-serif;
+  color: rgb(215, 179, 204);
+text-align: center;
+
+vertical-align: middle;
+  font-size: 40px;
+ 
+  text-transform: uppercase;
+  text-shadow: 3px 3px rgb(68, 47, 120);
+}
+
+.fleche{
+  width: 10%;
+}
     
     .propos_desc{
       
@@ -729,7 +760,7 @@ footer p{
 
     .lettre{
       width: 60%;
-
+      margin-top: 8%;
     }
 
 
@@ -1050,9 +1081,24 @@ margin-top: 7%;
 
 .titre_propos{
   font-size: 70px;
-  margin: 10%;
+  margin-top: 10%;
 }
 
+.sous-titre{
+  font-family: 'Russo One', sans-serif;
+  color: rgb(215, 179, 204);
+text-align: center;
+
+vertical-align: middle;
+  font-size: 40px;
+ 
+  text-transform: uppercase;
+  text-shadow: 3px 3px rgb(68, 47, 120);
+}
+
+.fleche{
+  width: 10%;
+}
     
     .propos_desc{
       
@@ -1065,6 +1111,7 @@ margin-top: 7%;
     .lettre{
       width: 70%;
       margin-bottom: 150px;
+      margin-top: 8%;
     }
 
    
@@ -1076,7 +1123,7 @@ margin-top: 7%;
 
 
 .titre_personnels{
-  margin: 10%;
+  margin: 17%;
 }
 body#carriere{
   background-image: linear-gradient(to left, #000000, #654869);
